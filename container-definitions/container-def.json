@@ -1,0 +1,14 @@
+[
+    {
+      "name": "dish-poc",
+      "image": "artifactory.global.dish.com/docker-dev-local/sample-nginx.0.01", 
+      "cpu": 10,
+      "memory": 256,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80
+        }
+      ]
+    }
+]
